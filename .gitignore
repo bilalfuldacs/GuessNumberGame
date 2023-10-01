@@ -1,1 +1,14 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+build/
+dist/
+.DS_Store    # macOS-specific
+
+# Ignore environment-specific files
+.env         # Store environment variables separately
 
